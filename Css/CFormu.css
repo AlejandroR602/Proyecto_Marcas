@@ -1,19 +1,16 @@
 body {
-    
     background-color: antiquewhite;
 }
 .header {
     text-align: center;
-    border-style: solid;
     border-width: 1px;
     margin-bottom: 3px;
-    background-color: rgb(200, 211, 99);
+    background-color: rgb(220, 133, 255);
 }
 .Persona {
     margin-left: 20%;
     text-align: center;
     width: 900px;
-    border-style: solid;
     border-width: 1px;
     background-color: aliceblue;
     line-height: 2;
@@ -23,7 +20,6 @@ body {
     text-align: center;
     width: 900px;
     margin-top: 3px;
-    border-style: solid;
     border-width: 1px;
     background-color: aliceblue;
     line-height: 2;
@@ -33,23 +29,19 @@ body {
     width: 500px;
     text-align: center;
     margin-top: 3px;
-    border-style: solid;
     border-width: 1px;
 } 
 .Frutos {
     margin-top: 3px;
-    border-style: solid;
     border-width: 1px;
 }
 .Bebidas {
     margin-top: 3px;
-    border-style: solid;
     border-width: 1px;
 }
 .legend{
     color: #000000a3;
     background-color: rgb(88, 88, 151);
-    border-style: solid;
     border-width: 1px;
 }
 .Comunicacion {
@@ -57,13 +49,11 @@ body {
     width: 900px;
     text-align: center;
     margin-top: 3px;
-    border-style: solid;
     border-width: 1px;
     background-color: aliceblue;
 }
 .DAT {
     margin-top: 3px;
-    border-style: solid;
     border-width: 1px;
     background-color: aliceblue;
 }
@@ -74,7 +64,6 @@ h3 {
 }
 .a1 {
     line-height: 2;
-    border-style: solid;
     border-width: 1px;
     width: 200px;
     background-color: aliceblue;
@@ -82,7 +71,6 @@ h3 {
 .a2 {
     background-color: aliceblue;
     line-height: 2;
-    border-style: solid;
     border-width: 1px;
     width: 200px;
 }

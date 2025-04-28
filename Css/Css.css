@@ -102,6 +102,9 @@ body{
     padding: 10px 20px;
     color: black;
     cursor: pointer;
+    border: 1px;
+    border-radius: 5px;
+    background-color: #f0a1dfda;
 }
 .menu li:hover {
     background-color: lightpink;
@@ -111,7 +114,6 @@ body{
     position: absolute;
     top: 100%;
     left: 0;
-    background-color: lightgoldenrodyellow;
     list-style: none;
     padding: 0;
     margin: 0;
