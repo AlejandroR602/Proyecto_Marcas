@@ -3,45 +3,59 @@ body {
 }
 .header {
     text-align: center;
+    border-style: solid;
     border-width: 1px;
     margin-bottom: 3px;
-    background-color: rgb(220, 133, 255);
+    background-color: rgb(200, 211, 99);
 }
 .Persona {
+
     margin-left: 20%;
     text-align: center;
-    width: 900px;
+    width: fit-content;
+    border-style: solid;
     border-width: 1px;
     background-color: aliceblue;
     line-height: 2;
 }
 .Banco {
-    margin-left: 20%;
+    margin-left: 22.5%;
     text-align: center;
-    width: 900px;
+    width: fit-content;
     margin-top: 3px;
+    border-style: solid;
     border-width: 1px;
     background-color: aliceblue;
     line-height: 2;
 }
 .Productos {
-    margin-left: 32.5%;
-    width: 500px;
+    width:fit-content;
+    margin-left:35%;
     text-align: center;
     margin-top: 3px;
+    border-style: solid;
     border-width: 1px;
 } 
 .Frutos {
+    width: fit-content;
+    margin-left:35%;
+    text-align: center;
     margin-top: 3px;
+    border-style: solid;
     border-width: 1px;
 }
 .Bebidas {
+    margin-left:35%;
+    width: fit-content;
+    text-align: center;
     margin-top: 3px;
+    border-style: solid;
     border-width: 1px;
 }
 .legend{
     color: #000000a3;
     background-color: rgb(88, 88, 151);
+    border-style: solid;
     border-width: 1px;
 }
 .Comunicacion {
@@ -49,11 +63,13 @@ body {
     width: 900px;
     text-align: center;
     margin-top: 3px;
+    border-style: solid;
     border-width: 1px;
     background-color: aliceblue;
 }
 .DAT {
     margin-top: 3px;
+    border-style: solid;
     border-width: 1px;
     background-color: aliceblue;
 }
@@ -64,6 +80,7 @@ h3 {
 }
 .a1 {
     line-height: 2;
+    border-style: solid;
     border-width: 1px;
     width: 200px;
     background-color: aliceblue;
@@ -71,9 +88,14 @@ h3 {
 .a2 {
     background-color: aliceblue;
     line-height: 2;
+    border-style: solid;
     border-width: 1px;
     width: 200px;
 }
 .a1, .a2{
     display: inline-block;
+}
+h2 {
+    display: block;
+    text-align: center;
 }
