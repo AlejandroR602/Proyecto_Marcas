@@ -93,7 +93,8 @@ body{
     display: flex;
     list-style: none;
     align-items: center;
-    justify-content: space-between;
+    /*Para que haya un espacio equitativo ente los elementos*/
+    justify-content: space-evenly;
     font-size: 20px;
 }
 .menu li {
@@ -125,4 +126,8 @@ body{
 }
 .menu li:hover .submenu {
     display: block;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
