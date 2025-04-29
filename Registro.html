@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="shortcut icon" href="img/icons8-formulario-100.png" type="image/x.icon">
+    <link rel="stylesheet" href="Css/CFormu.css">
+    <link rel="stylesheet" href="Css/Css.css">
+</head>
+<body>
+    <ul class="menu">
+    <li>
+        <a href="Nosotros.html">Inicio</a>
+    </li>
+    <li>
+        Productos
+        <ul class="submenu">
+            <li><a href="Gominolas.html">Golosinas</a></li>
+            <li><a href="Frutos Secos.html">Frutos secos</a></li>
+            <li><a href="Bebidas.html">Bebidas</a></li>
+        </ul>
+    </li>
+    <li>
+        Sobre nostros
+        <ul class="submenu">
+            <li><a href="Nosotros.html">Quienes somos</li></a> 
+            <li><a href="Nosotros.html">Ubicaciones</li></a> 
+            <li><a href="Nosotros.html">Contáctanos</li></a>
+        </ul>
+    </li>
+    <li>
+        Login
+        <ul class="submenu">
+            <li><a href="Login.html">Login</a> </li>
+            <li><a href="Registro.html">Registrese</a></li>
+        </ul>
+    </li>
+</ul>
+    <form action="" name="REGISTRO" autocomplete="off">
+        <div class="Persona">
+            <legend class="legend">Registrese</legend>
+            Nombre:
+            <input type="text" name="Nombre" placeholder="Gant">
+            <br>
+            Apellidos:
+            <input type="text" name="Apellidos" placeholder="BOLL">
+            <br>
+            DNI:
+            <input type="text" name="DNI" placeholder="ej: 12345678A">
+            <br>
+            Calle:
+            <input type="text" name="Calle" placeholder="Av/Del atlante 3">
+            <br>
+            Telefono:
+            <input type="tel" name="Telefono" placeholder="596312447">
+            <br>
+            Sexo:
+            <label>
+                <input type="radio" name="genero" value="1"> Hombre
+            </label>
+            <label>
+                <input type="radio" name="genero" value="2"> Mujer 
+            </label>
+            <br>
+            <label>Contraseña:<input type="password" name="password" placeholder="Contraseña" required></label>
+            <label>Repita Contraseña:<input type="password" name="password" placeholder="Contraseña Repetida" required></label>
+            <br>
+            <label>
+                Fecha de nacimiento:
+                <input type="date" name="Nacimiento" required>
+            </label>
+            <br>
+            Correo Electronico:
+            <input type="email" placeholder="XXXXX@gmail.com">
+        </div>
+    </form>
+    <h2><button><a href="Nosotros.html">Enviar</a></button></h2>
+</body>
+</html>
