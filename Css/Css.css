@@ -1,4 +1,4 @@
-body{
+body {
     background-image: url(../img/Fondo-Página.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@ body{
 }
 
 /*Parte flipcards*/
-.card{
+.card {
     position: relative;
     width: 250px;
     height: 300px;
@@ -16,7 +16,8 @@ body{
     margin: 40px;
     display: inline-block;
 }
-.card .face{
+
+.card .face {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -25,12 +26,14 @@ body{
     overflow: hidden;
     transition: 0.5s;
 }
-.card .front{
+
+.card .front {
     transform: perspective(600px) rotateY(0deg);
     box-shadow: 0px 5px 10px #f0a1dfda;
-    background-color:rgb(102, 94, 211) ;
+    background-color: rgb(102, 94, 211);
 }
-.card .front img{
+
+.card .front img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -38,7 +41,8 @@ body{
     para ajustarse a su contenedor*/
     object-fit: cover;
 }
-.card .front h3{
+
+.card .front h3 {
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -48,7 +52,8 @@ body{
     background: rgb(243, 183, 245);
     text-align: center;
 }
-.card .back{
+
+.card .back {
     transform: perspective(600px) rotateY(180deg);
     background: rgb(102, 94, 211);
     padding: 15px;
@@ -59,31 +64,37 @@ body{
     text-align: center;
     box-shadow: 0px 5px 10px #f0a1dfda;
 }
-.card .back .link{
+
+.card .back .link {
     border-top: 1px solid #f0a1dfda;
     height: 50px;
     line-height: 50px;
 }
-.card .back .link a{
+
+.card .back .link a {
     color: #f0a1dfda;
 }
-.card .back h3{
+
+.card .back h3 {
     font-size: 30px;
     margin-top: 20px;
     letter-spacing: 2px;
 }
-.card .back p{
+
+.card .back p {
     letter-spacing: 1px;
 }
-.card:hover .front{
+
+.card:hover .front {
     transform: perspective(600px) rotateY(180deg);
 }
-.card:hover .back{
+
+.card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
 
 /*Menu*/
-.menu{
+.menu {
     position: sticky;
     top: 0;
     background-color: lightyellow;
@@ -97,6 +108,7 @@ body{
     justify-content: space-evenly;
     font-size: 20px;
 }
+
 .menu li {
     position: relative;
     padding: 10px 20px;
@@ -106,9 +118,11 @@ body{
     border-radius: 5px;
     background-color: #f0a1dfda;
 }
+
 .menu li:hover {
     background-color: lightpink;
 }
+
 .submenu {
     display: none;
     position: absolute;
@@ -119,23 +133,27 @@ body{
     margin: 0;
     width: 100%;
 }
+
 .submenu li {
     padding: 10px;
     white-space: nowrap;
 }
+
 .submenu li:hover {
     background-color: lightpink;
 }
+
 .menu li:hover .submenu {
     display: block;
 }
-a{
+
+a {
     text-decoration: none;
     color: black;
 }
 
 /*Boton de enviar*/
-button{
+button {
     width: 100px;
     height: 50px;
     background-color: coral;
