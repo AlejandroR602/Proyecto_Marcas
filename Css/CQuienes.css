@@ -3,11 +3,11 @@ body {
     margin: 0;
     padding: 0;
 }
-
+/*Color del menu */
 nav {
     background-color: antiquewhite;
 }
-
+/*Estilos del menu*/
 nav ul {
     margin: 0;
     padding: 0;
@@ -15,11 +15,11 @@ nav ul {
     justify-content: center;
     list-style-type: none;
 }
-
+/*Estilos de los items de la lista*/
 nav ul li {
     margin: 10px;
 }
-
+/*Estilos enlaces del Menu*/
 nav ul li a {
     display: block;
     padding: 10px 60px;
@@ -29,24 +29,24 @@ nav ul li a {
     border-radius: 5px;
     font-size: 16px;
 }
-
+/*Estilos del Raton*/
 nav ul li a:hover {
     background-color: orange;
     color: yellow;
 }
-
+/*Estilos Container*/
 .container {
     display: flex;
     justify-content: space-between;
     margin: 20px;
 }
-
+/*Estilos Mapa*/
 .map {
     flex: 1;
     height: 400px;
     margin-right: 20px;
 }
-
+/*Estilos del contenedor*/
 .text-container {
     flex: 2;
     padding: 20px;
@@ -55,13 +55,13 @@ nav ul li a:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
+/*Estilos del parrafo del contenedor*/
 .text-container p {
     line-height: 1.6;
     font-size: 18px;
     color: #333;
 }
-
+/*Footer Pagina*/
 footer {
     background-color: azure;
     text-align: center;

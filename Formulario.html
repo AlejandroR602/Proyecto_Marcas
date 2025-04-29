@@ -11,6 +11,7 @@
 </head>
 
 <body>
+    <!--Este es el menú de la página que te lleva a los productos al registro, etc.-->
     <ul class="menu">
         <li>
             <a href="Nosotros.html">Inicio</a>
@@ -40,13 +41,15 @@
         </li>
     </ul>
 
+    <!-- Header de la pagina -->
     <header class="header">
         <h3><b>HOJA DE PEDIDOS</b></h3>
         <h3><b>HAGA SU PEDIDO Y DISFRUTE</b></h3>
     </header>
 
-
+    <!-- Formulario separado en Divs -->
     <form name="Formulario" method="post" action="">
+        <!-- Primer Div Datos Personales -->
         <div class="Persona">
             <legend class="legend">Datos Personales(*)</legend>
             Apellidos:
@@ -58,6 +61,7 @@
             <br>
             Nacido\a en:
             <input type="text" name="Lugar Nacimiento" placeholder="ej: Mostoles">
+            <!-- Etiqueta desplegable de las Comunidades  -->
             Provincia:
             <select name="Provincia">
                 <option value="Andalucía">Andalucía</option>
@@ -88,6 +92,7 @@
             <br>
             Localidad:
             <input type="text" name="Localidad" placeholder="ej: Mostoles">
+            <!-- Etiqueta desplegable de Comunidades --> 
             Provincia:
             <select name="Provincia">
                 <option value="Andalucía">Andalucía</option>
@@ -111,7 +116,8 @@
             Telefono:
             <input type="number" name="Numero Telefono" placeholder="ej: 698433789">
         </div>
-
+ 
+        <!-- Segundo Div Datos Bancarios -->
         <div class="Banco">
             <legend class="legend">Datos Bancarios</legend>
             Nombre Titular:
@@ -137,8 +143,10 @@
             <input type="text" name="email" placeholder="ej: *****@gmail.com">
         </div>
 
+        <!-- Tercer Div Productos de la tienda -->
         <div class="Productos">
             <legend class="legend">Seleccion Chuches</legend>
+            <!-- Primer subcontenedor de Chuches -->
             <div class="a1">
                 Bolas de Chicle
                 <input type="number" name="Bolas de Chicle" placeholder="ej: Cantidad">
@@ -164,6 +172,8 @@
                 Platanos
                 <input type="number" name="Platanos" placeholder="ej: Cantidad">
             </div>
+
+            <!-- Segundo subcontenedor de Chuches -->
             <div class="a2">
                 Huevos de Chocolate
                 <input type="number" name="Huevos de Chocolate" placeholder="ej: Cantidad">
@@ -190,8 +200,11 @@
                 <input type="number" name="Regalices" placeholder="ej: Cantidad">
             </div>
         </div>
+
+        <!-- Cuarto Div Frutos Secos -->
         <div class="Frutos">
             <legend class="legend">Frutos Secos</legend>
+            <!-- Primer subcontenedor Frutos Secos -->
             <div class="a1">
                 Almendras
                 <input type="number" name="Almendras" placeholder="ej: Cantidad">
@@ -211,6 +224,7 @@
                 Nueces de macadamia
                 <input type="number" name="Nueces de macadamia" placeholder="ej: Cantidad">
             </div>
+            <!-- Segundo subcontenedor Frutos Secos -->
             <div class="a2">
                 Pistachos
                 <input type="number" name="Pistachos" placeholder="ej: Cantidad">
@@ -231,8 +245,10 @@
                 <input type="number" name="Pipas con sal" placeholder="ej: Cantidad">
             </div>
         </div>
+        <!-- Quinto Div Bebidas -->
         <div class="Bebidas">
             <legend class="legend">Bebidas</legend>
+            <!-- Primer subcontenedor Bebidas -->
             <div class="a1">
                 Dr.Peper
                 <input type="number" name="Dr.Peper" placeholder="ej: Cantidad">
@@ -249,6 +265,7 @@
                 Red-Bull
                 <input type="number" name="Red-Bull" placeholder="ej: Cantidad">
             </div>
+            <!-- Segundo subcontenedor Bebidas -->
             <div class="a2">
                 Acuarius
                 <input type="number" name="Acuarius" placeholder="ej: Cantidad">
@@ -267,6 +284,7 @@
             </div>
         </div>
         </div>
+        <!-- Sexto DIV Comunicacion-->
         <div class="Comunicacion">
             <legend class="legend">Comunicación</legend>
             De acuerdo con el articulo 42.3 de la Ley 30/1992, de 24 de Noviembre , de Regimen Juridico de las
@@ -278,7 +296,8 @@
             <input type="text" name="Nombre Completo" placeholder="ej: Fermin Trujillo">,
             <input type="number" name="Dia" placeholder="ej: 02">de
             <input type="text" name="Mes" placeholder="ej: Enero">de
-            <select name="Provincia">
+            <!-- Etiqueta desplegable de Años -->
+            <select name="Año">
                 <option value="2007">2007</option>
                 <option value="2006">2006</option>
                 <option value="2005">2005</option>
@@ -317,6 +336,7 @@
             <br>
             <u>Firma</u>
         </div>
+        <!-- Septimo DIV Politica Tratamiento Datos -->
         <div class="DAT">
             (*)Los datos personales contenidos en este impreso podran ser incluidos en un fichero para su tratamiento
             por la Consejeria de Cultura y Educación, en el uso
@@ -327,6 +347,7 @@
                 Personal(BOE núm 298, de 14 de diciembre de 1999).
             </b>
         </div>
+        <!-- Un boton enviar con enlace de vuelta a la pagina principal -->
         <h2><button><a href="Nosotros.html">Enviar</a></button></h2>
         <footer><b>DIRECTOR/A O TITULAR DE LOS DATOS</b></footer>
 </body>
